@@ -1,0 +1,255 @@
+body{
+    height: auto;
+}
+
+.main-area{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.main-area h2{
+    position: absolute;
+    bottom: 80px;
+}
+.main-area h4{
+    position: absolute;
+    bottom: 50px;
+}
+
+.MVP{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    
+}
+
+.MVP .ELEMAN{
+    height: 100px;
+}
+
+.ELEMAN img{
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+.ELEMAN h2{
+    height: 60px;
+    list-style:circle;
+    font-family: sans-serif;
+    font-weight: 100;
+    box-shadow: 20px;
+    font-size: 51px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+    transition: background-color 0.6s ease-in;
+
+}
+
+.ELEMAN h2:hover{
+    background-color:darkgray;
+    border-radius: 40px;
+}
+
+
+
+#Header{
+    height: 80px;
+}
+
+.news{
+    margin-top: 70px;
+    height:900px;
+}
+
+
+.news-area .new{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+.nav-head h1{
+    color: blue;
+    font-family: sans-serif;
+}
+
+
+.nav-informations ul{
+    z-index: ;
+    width: 190px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-informations ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+      
+    }
+  }
+
+.nav-informations ul li{
+   
+    margin: 5px;
+    text-decoration: none;
+    list-style:none;
+    padding: 5px;
+    text-align: center;
+    width: 200x;
+}
+
+
+
+.nav-informations ul li a{
+    color: yellowgreen;
+   
+    
+}
+
+li a{
+    font-family: sans-serif;
+    color: brown;
+    font-style: italic;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in;
+}
+
+li a:hover{
+
+    background-color:aqua;
+
+}
+
+
+.news-area h1{
+    font-family: sans-serif;
+    color: black;
+}
+.news-area h2{
+    text-align: center;
+    color: brown;
+}
+
+
+.Team .Container{
+    display: flex;
+    justify-content: center;
+}
+
+.Team-members{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.Boss{
+    text-align: center;
+}
+
+.Team-members .Managers{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    height: 200px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .Team-members .Managers{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 600px;
+        
+      
+    }
+  }
+
+.Managers .menu{
+    height: 100px;
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Managers .menu{
+        text-align: center;
+        height: 200px;
+        width: 400px
+        
+      
+    }
+  }
+
+.Employee{
+    display: flex;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .Employee{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center ;
+        
+      
+    }
+  }
+
+.Employee li{
+    list-style:none;
+    position: relative;
+    right: 25px;
+}
+
+.empmenu{
+    margin: 20px;
+}
+
+
+.Contact-{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact- h3{
+    text-align: center;
+}
+
+.Contact- iframe{
+    border-radius: 40px;
+    margin: 10px;
+}
